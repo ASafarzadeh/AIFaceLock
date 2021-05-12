@@ -2,14 +2,14 @@
 
 <div align="center">
 
-<img src="/docs/static/logo-transparent.png" alt="spotDL" width="200" />
+<img src="./top.png" alt="spotDL" width="200" />
 
 # FreezeWall(AI BASED FACELOCK)
 
 Locks The Computer When Runs Completely & Unlocks Just with Recognizing The Owner's Face(s)
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?style=flat-square&color=44CC11)](https://github.com/ASafarzadeh/AIFaceLock)
-[![pypi version](https://img.shields.io/pypi/pyversions/opencv-python?color=%2344CC11&style=flat-square)](https://pypi.org/project/spotdl/)
+[![pypi version](https://img.shields.io/pypi/pyversions/opencv-python?color=%2344CC11&style=flat-square)](https://github.com/ASafarzadeh/AIFaceLock)
 [![GitHub top language](https://img.shields.io/github/languages/top/ASafarzadeh/AIFaceLock)](https://github.com/ASafarzadeh/AIFaceLock)
 
 </div>
