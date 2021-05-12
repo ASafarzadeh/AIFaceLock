@@ -8,9 +8,9 @@
 
 Locks The Computer When Runs Completely & Unlocks Just with Recognizing The Owner's Face(s)
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?style=flat-square&color=44CC11)](https://github.com/spotDL/spotify-downloader/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?style=flat-square&color=44CC11)](https://github.com/ASafarzadeh/AIFaceLock)
 [![pypi version](https://img.shields.io/pypi/pyversions/opencv-python?color=%2344CC11&style=flat-square)](https://pypi.org/project/spotdl/)
-[![pypi downloads](https://img.shields.io/pypi/dw/opencv-python?label=downloads@pypi&color=344CC11&style=flat-square)](https://pypi.org/project/opencv-python/)
+[![GitHub top language](https://img.shields.io/github/languages/top/ASafarzadeh/AIFaceLock)](https://github.com/ASafarzadeh/AIFaceLock)
 
 </div>
 
