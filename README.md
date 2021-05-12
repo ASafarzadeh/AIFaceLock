@@ -74,3 +74,13 @@ Interested in contributing? Make any changes That u like, And then send it to Ou
 
 1. [@ArizLOLO](https://github.com/AriaIzanlou) for Coding UI and Working on Designs and OPENCV
 2. [@ME😁](https://github.com/ASafarzadeh) for Face Recognition&LOCK Alogorithm and Photo's Design
+
+# Gallery
+<img src="./pic/Slide7.JPG" alt="freezewall" width="1000" />
+<img src="./pic/Slide10.JPG" alt="freezewall" width="1000" />
+<img src="./pic/Slide12.JPG" alt="freezewall" width="1000" />
+<img src="./pic/Slide15.JPG" alt="freezewall" width="1000" />
+<img src="./pic/Slide20.JPG" alt="freezewall" width="1000" />
+<img src="./pic/Slide22.JPG" alt="freezewall" width="1000" />
+# Donation😎
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D14LUVM)
