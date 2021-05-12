@@ -13,7 +13,8 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D14LUVM)
 </div>
 
-> بدون نیاز به سنسور مادون قرمز جهت تشخیص چهره با ضریب موفقیت بالای 90 درصد([English Version]./Readme.md)
+> بدون نیاز به سنسور مادون قرمز جهت تشخیص چهره با ضریب موفقیت بالای 90 درصد
+[English Version](./Readme.md)
 
 ## مراحل کار نرم افزار
 
