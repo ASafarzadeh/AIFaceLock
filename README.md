@@ -16,174 +16,61 @@ Locks The Computer When Runs Completely & Unlocks Just with Recognizing The Owne
 
 > Complete No IRSENSOR needed AI Screen Recognizer With 90+% Of Correct Recognition
 
-## What spotDL does
+## What FreezeWall Does
 
-1. Downloads music from YouTube as an MP3 file
-2. Applies basic metadata gathered from Spotify such as:
-   - Track Name
-   - Track Number
-   - Album
-   - Album Cover
-   - Genre
-   - and more!
+1. Capture about 200 pics from the owner and learn from them
+2. Apply Security Layers and Usese Neural Network Learning Based On Harcascade
+3. When Starts, Locks the Computer Completely while The Owner(s)'s Face is not recognized.
 
-> _⚠ We have dropped the active development of spotDL v2 due to support and maintainability. No focused efforts will be made to resolve v2 specific issues._
+> _⚠ Cause This Program Doesn't Need Any IR SENSOR and Just uses a simple webcam, It Won't Work in low Light_
 
 ## Prerequisites
 
 - Python 3.6 or above (added to PATH)
-- FFmpeg 4.3 or above (added to PATH)
+- Other Requirments Mentioned in requirments.txt
 
-> **_YouTube Music must be available in your country for spotDL to work. This is because we use YouTube Music to filter search results. You can check if YouTube Music is available in your country, by visiting [YouTube Music](https://music.youtube.com)._**
+> **_This Program is not usable in ORGANIZATIONS OR COMPANIES. Main Version IS NOT PUBLISHED and this is just for study usage_**
 
 ## Installation
 
-### Installing FFmpeg
+### Installing Python
 
-- [Windows Tutorial](https://windowsloop.com/install-ffmpeg-windows-10/)
-- OSX - `brew install ffmpeg`
-- Linux - `sudo snap install ffmpeg`
+- [Download Python(3.6.5 Recommended)](https://python.org)
 
-### Installing spotDL
+### Installing Requirments
 
-- Recommended Stable Version:
+- Installing All Packages Once:
 
   ```bash
-  pip install spotdl
+  py -m pip install -r {PATH TO requirments.txt}
   ```
 
-- Dev Version: **(NOT STABLE)**
-
+- Install 1 by 1: **(NOT RECOMMENDED)**
+install keyboard,pynput,playsound,pyautogui,jdatetime,keyboard,screeninfo,opencv-python,numpy,pillow,hashlib by this pattern:
   ```bash
-  pip install https://codeload.github.com/spotDL/spotify-downloader/zip/dev
+  pip install [packagename]
   ```
 
-If you have trouble installing spotdl take a look at the extended installation guide
-[here](/docs/INSTALLATION.md) or ask for help in our
-[discord server](https://discord.gg/xCa23pwJWY)
+If you have trouble installing Freezewall Contact Support:
+[discord server](https://discord.gg/fY8QUqMzkT)
 
-#### On Termux
-
-```bash
-curl -L https://raw.githubusercontent.com/spotDL/spotify-downloader/master/termux/setup_spotdl.sh | sh
-```
 
 ## Usage
 
-- #### To download a song, run
+- #### First Run Settings.py
+> Complete Face Learning Progress
+
+- #### Then Run Listener.py
 
   ```bash
-  spotdl [trackUrl]
+  Now Computer Will Lock by pressing WIN+`
   ```
-
-  example:
-
-  ```bash
-  spotdl https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b?si=1stnMF5GSdClnIEARnJiiQ
-  ```
-
-- #### To download an album, run
-
-  ```bash
-  spotdl [albumUrl]
-  ```
-
-  example:
-
-  ```bash
-  spotdl https://open.spotify.com/album/4yP0hdKOZPNshxUOjY0cZj?si=AssgQQrVTJqptFe7X92jNg
-  ```
-
-- #### To download a playlist, run
-
-  ```bash
-  spotdl [playlistUrl]
-  ```
-
-  example:
-
-  ```bash
-  spotdl https://open.spotify.com/playlist/37i9dQZF1E8UXBoz02kGID?si=oGd5ctlyQ0qblj_bL6WWow
-  ```
-
-- #### To search for and download a song, run, **with quotation marks**
-
-  ```bash
-  spotdl '[songQuery]'
-  ```
-
-  example:
-
-  ```bash
-  spotdl 'The Weeknd - Blinding Lights'
-  ```
-
-  > _Note: This is not accurate and often causes errors._
-
-- #### To resume a failed/incomplete download, run
-
-  ```bash
-  spotdl [pathToTrackingFile]
-  ```
-
-  example:
-
-  ```bash
-  spotdl 'The Weeknd - Blinding Lights.spotdlTrackingFile'
-  ```
-
-  > _Note: `.spotdlTrackingFile`s are automatically created when a download starts and deleted on completion_
-
-- #### You can queue up multiple download tasks by separating the arguments with spaces
-
-  ```bash
-  spotdl [songQuery1] [albumUrl] [songQuery2] ... (order does not matter)
-  ```
-
-  example:
-
-  ```bash
-  spotdl 'The Weeknd - Blinding Lights' https://open.spotify.com/playlist/37i9dQZF1E8UXBoz02kGID?si=oGd5ctlyQ0qblj_bL6WWow ...
-  ```
-
-  > _Note: spotDL downloads up to 4 songs in parallel, so for a faster experience, download albums and playlist, rather than tracks._
-
-## `pipx` Isolated Environment Alternative
-
-For users who are not familiar with `pipx`, it can be used to run scripts **without**
-installing the spotDL package and all the dependencies globally with pip. (Effectively
-skipping over the [spotDL Installation](#Installing-spotDL) step)
-
-First, you will need to install `pipx` by running:
-
-```bash
-python3 -m pip install --user pipx
-python3 -m pipx ensurepath
-```
-
-Next, you can jump directly to running spotDL with:
-
-```bash
-pipx run spotdl ...
-```
 
 ## Contributor Guide
 
-Interested in contributing? Check out our [CONTRIBUTING.md](docs/CONTRIBUTING.md) to find
-resources around contributing along with a guide on how to set up a development
-environment.
-
-## Contributors
-
-[![contributors](https://contributors-img.web.app/image?repo=spotdl/spotify-downloader)](https://github.com/spotdl/spotify-downloader/graphs/contributors)
+Interested in contributing? Make any changes That u like, And then send it to Our [discord server](https://discord.gg/fY8QUqMzkT) as a zip file😊
 
 ## Authors
 
-1. [@ritiek](https://github.com/ritiek) for creating and maintaining spotDL for 4 years
-2. [@rocketinventor](https://github.com/rocketinventor) for figuring out YouTube Music
-   querying
-3. [@MikhailZex](https://github.com/MikhailZex) for, never mind...
-
-## License
-
-[MIT](/LICENSE)
+1. [@ArizLOLO](https://github.com/AriaIzanlou) for Coding UI and Working on Designs and OPENCV
+2. [@ME😁](https://github.com/ASafarzadeh) for Face Recognition&LOCK Alogorithm and Photo's Design
