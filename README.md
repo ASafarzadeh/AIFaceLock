@@ -13,7 +13,7 @@ Locks The Computer When Runs Completely & Unlocks Just with Recognizing The Owne
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D14LUVM)
 </div>
 
-> Complete No IRSENSOR needed AI Screen Recognizer With 90+% Of Correct Recognition
+> Complete No IRSENSOR needed AI Screen Recognizer With 90+% Of Correct Recognition[نسخه فارسی](./Readme-fa.md)
 
 ## What FreezeWall Does
 
