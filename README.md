@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./top.png" alt="spotDL" width="200" />
+<img src="./top.jpg" alt="spotDL" width="200" />
 
 # FreezeWall(AI BASED FACELOCK)
 
