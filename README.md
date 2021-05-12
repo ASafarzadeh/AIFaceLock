@@ -7,11 +7,10 @@
 # FreezeWall(AI BASED FACELOCK)
 
 Locks The Computer When Runs Completely & Unlocks Just with Recognizing The Owner's Face(s)
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D14LUVM)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?style=flat-square&color=44CC11)](https://github.com/ASafarzadeh/AIFaceLock)
 [![pypi version](https://img.shields.io/pypi/pyversions/opencv-python?color=%2344CC11&style=flat-square)](https://github.com/ASafarzadeh/AIFaceLock)
 [![GitHub top language](https://img.shields.io/github/languages/top/ASafarzadeh/AIFaceLock)](https://github.com/ASafarzadeh/AIFaceLock)
-
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D14LUVM)
 </div>
 
 > Complete No IRSENSOR needed AI Screen Recognizer With 90+% Of Correct Recognition
