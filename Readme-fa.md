@@ -4,77 +4,78 @@
 
 <img src="./logo.png" alt="spotDL" width="200" />
 
-# FreezeWall(AI BASED FACELOCK)
+# دیوار یخین(تشخیص چهره بر مبنای هوش مصنوعی)
 
-Locks The Computer When Runs Completely & Unlocks Just with Recognizing The Owner's Face(s)\
+قفل کامل کامپیوتر تا زمان شناسایی چهره ثبت شده از صاحب دستگاه\
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?style=flat-square&color=44CC11)](https://github.com/ASafarzadeh/AIFaceLock)
 [![pypi version](https://img.shields.io/pypi/pyversions/opencv-python?color=%2344CC11&style=flat-square)](https://github.com/ASafarzadeh/AIFaceLock)
 [![GitHub top language](https://img.shields.io/github/languages/top/ASafarzadeh/AIFaceLock)](https://github.com/ASafarzadeh/AIFaceLock)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D14LUVM)
 </div>
 
-> Complete No IRSENSOR needed AI Screen Recognizer With 90+% Of Correct Recognition[نسخه فارسی](./Readme-fa.md)
+> بدون نیاز به سنسور مادون قرمز جهت تشخیص چهره با ضریب موفقیت بالای 90 درصد[English Version]./Readme.md)
 
-## What FreezeWall Does
+## مراحل کار نرم افزار
 
-1. Capture about 200 pics from the owner and learn from them
-2. Apply Security Layers and Usese Neural Network Learning Based On Harcascade
-3. When Starts, Locks the Computer Completely while The Owner(s)'s Face is not recognized.
+1. ثبت حدود 200 تصویر از فرد و یادگیری بر مبنای آنها
+2. شناسایی چهره ها بر مبنای HarCascade
+3. وقتی lock.pyw اجرا شود، تا زمانی که چهره صاحب دستگاه شناسایی نشده دستگاه قفل گشایی نخواهد شد
 
-> _⚠ Cause This Program Doesn't Need Any IR SENSOR and Just uses a simple webcam, It Won't Work in low Light_
+> _⚠ بدلیل وبکم محور بودن این برنامه و عدم نیاز به سنسور مادون قرمز، قابل استفاده در نور کم نیست_
+> 
+> **_این برنامه برای استفاده سازمان ها و موارد امنیتی مناسب نیست. نسخه کامل این نرم افزار منتشر نشده و نمی شود ونسخه عرضه شده به شما صرفا جهت یادگیری و پیشبرد دانش برنامه نویسی کشور است_**
 
-## Prerequisites
+## پیش نیاز ها
 
-- Python 3.6 or above (added to PATH)
-- Other Requirments Mentioned in requirments.txt
+- پایتون 3.6.5 به بالا
+- باقی پیش نیاز ها در requirments.txt ذکر شده است
 
-> **_This Program is not usable in ORGANIZATIONS OR COMPANIES. Main Version IS NOT PUBLISHED and this is just for study usage_**
 
-## Installation
+## نصب و راه اندازی
 
-### Installing Python
+### نصب پایتون
 
-- [Download Python(3.6.5 Recommended)](https://python.org)
+- [دانلود پایتون(3.6.5 پیشنهاد می شود)](https://python.org)
 
-### Installing Requirments
+### نصب پیش نیاز ها
 
-- Installing All Packages Once:
+- نصب یکجای همگی
 
   ```bash
   py -m pip install -r {PATH TO requirments.txt}
   ```
 
-- Install 1 by 1: **(NOT RECOMMENDED)**
-install keyboard,pynput,playsound,pyautogui,jdatetime,keyboard,screeninfo,opencv-python,numpy,pillow,hashlib by this pattern:
+- نصب یک به یک: **(پیشنهاد نمیشود)**
+پکیج های  keyboard,pynput,playsound,pyautogui,jdatetime,keyboard,screeninfo,opencv-python,numpy,pillow,hashlib را با الگوی زیر نصب کنید:
   ```bash
-  pip install [packagename]
+  pip install [نام پکیج]
   ```
 
-If you have trouble installing Freezewall Contact Support:
+در صورت وجود هر گونه مشکل از طریق سرور دیسکورد زیر مشکلات رابا ما مطرح کنید:
 [discord server](https://discord.gg/fY8QUqMzkT)
 
 
-## Usage
+## استفاده
 
-- #### First Run Settings.py
-> Complete Face Learning Progress
+- #### اول Settings.py را اجرا کنید
+> مراحل را کامل کنید
 
-- #### Then Run Listener.py
+- #### اکنون فایل Listener.py را اجرا کنید
 
   ```bash
-  Now Computer Will Lock by pressing WIN+`
+  کامپیوتر اکنون با فشردن WIN+` قفل خواهد شد
   ```
 
-## Contributor Guide
+## راهنمای مشارکت کننده ها
 
-Interested in contributing? Make any changes That u like, And then send it to Our [discord server](https://discord.gg/fY8QUqMzkT) as a zip file😊
+اگه دوست داشتین و در برنامه تغییر مثبتی ایجاد کردین میتونید اون رو از طریق  [سرور دیسکورد ما](https://discord.gg/fY8QUqMzkT) برامون بصورت یه فایل زیپ ارسال کنید😊
 
-## Authors
+## تشکر ها
 
-1. [@ArizLOLO](https://github.com/AriaIzanlou) for Coding UI and Working on Designs and OPENCV
-2. [@ME😁](https://github.com/ASafarzadeh) for Face Recognition&LOCK Alogorithm and Photo's Design
+1. [از آریا](https://github.com/AriaIzanlou) برای کد زدن کل ui برنامه و تغییرات قشنگ در صفحه تغییر چهره
+2. [از خودم😁](https://github.com/ASafarzadeh) برای نوشتن الگوی تشخیص چهره و هوش مصنوعی و طراحی اسکرین سیور ها
 
-# Gallery
+# گالری تصاویر
 <img src="./pic/Slide7.JPG" alt="freezewall" width="1000" />
 <img src="./pic/Slide10.JPG" alt="freezewall" width="1000" />
 <img src="./pic/Slide12.JPG" alt="freezewall" width="1000" />
