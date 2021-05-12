@@ -7,7 +7,7 @@
 # FreezeWall(AI BASED FACELOCK)
 
 Locks The Computer When Runs Completely & Unlocks Just with Recognizing The Owner's Face(s)
-
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D14LUVM)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?style=flat-square&color=44CC11)](https://github.com/ASafarzadeh/AIFaceLock)
 [![pypi version](https://img.shields.io/pypi/pyversions/opencv-python?color=%2344CC11&style=flat-square)](https://github.com/ASafarzadeh/AIFaceLock)
 [![GitHub top language](https://img.shields.io/github/languages/top/ASafarzadeh/AIFaceLock)](https://github.com/ASafarzadeh/AIFaceLock)
@@ -82,6 +82,3 @@ Interested in contributing? Make any changes That u like, And then send it to Ou
 <img src="./pic/Slide15.JPG" alt="freezewall" width="1000" />
 <img src="./pic/Slide20.JPG" alt="freezewall" width="1000" />
 <img src="./pic/Slide22.JPG" alt="freezewall" width="1000" />
-# Donation😎
-
-> [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D14LUVM)
