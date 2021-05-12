@@ -9,15 +9,12 @@
 Locks The Computer When Runs Completely & Unlocks Just with Recognizing The Owner's Face(s)
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?style=flat-square&color=44CC11)](https://github.com/spotDL/spotify-downloader/blob/master/LICENSE)
-[![pypi version](https://img.shields.io/pypi/pyversions/spotDL?color=%2344CC11&style=flat-square)](https://pypi.org/project/spotdl/)
-![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/spotDL/spotify-downloader/latest?color=44CC11&style=flat-square)
-[![pypi downloads](https://img.shields.io/pypi/dw/spotDL?label=downloads@pypi&color=344CC11&style=flat-square)](https://pypi.org/project/spotdl/)
-![Contributors](https://img.shields.io/github/contributors/spotDL/spotify-downloader?style=flat-square)
-[![Discord](https://img.shields.io/discord/771628785447337985?label=discord&logo=discord&style=flat-square)](https://discord.gg/xCa23pwJWY)
+[![pypi version](https://img.shields.io/pypi/pyversions/opencv-python?color=%2344CC11&style=flat-square)](https://pypi.org/project/spotdl/)
+[![pypi downloads](https://img.shields.io/pypi/dw/opencv-python?label=downloads@pypi&color=344CC11&style=flat-square)](https://pypi.org/project/opencv-python/)
 
 </div>
 
-> The fastest, easiest, and most accurate command-line music downloader
+> Complete No IRSENSOR needed AI Screen Recognizer With 90+% Of Correct Recognition
 
 ## What spotDL does
 
